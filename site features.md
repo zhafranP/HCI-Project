@@ -1,3 +1,5 @@
+<br>
+
 # Site Features
 
 ### Frontend:
@@ -7,6 +9,11 @@
 ### Backend functionalities
   1. Menggunakan Bahasa Pemrograman PHP
   2. Menggunakan MySQL sebagai database
+
+<br>
+<br>
+
+# Site Identity
 
 ### Request Client :
 * Client ingin membuat website yang berisi survey pasien vaksinasi covid-19. Isi dalam websitenya itu terdiri dari nama, usia tempat tinggal, apakah sudah divaksin atau belum, alasannya apa sudah divaksin atau belum divaksin, jenis vaksinnya, jumlah orang dirumah, jumlah orang yang sudah divaksinasi di rumah pasien, dan rata-rata kontak dengan orang lain dalam sehari.
@@ -31,3 +38,4 @@ Dalam form website ini berisi sebelas pertanyaan yang akan ditujukan kepada resp
   * Rata-rata kontak dengan orang lain dalam sehari 
 
 * Dalam Mengambil data yang sudah diisi oleh responden kami menggunakan method post untuk menangkap data tersebut lalu memasukkanya ke dalam database. Setelah jumlah target responden tercapai maka semua data yang sudah terekam di database akan kami olah terlebih dahulu dan mengirimkan hasilnya ke client. 
+<br>
