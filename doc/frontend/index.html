@@ -30,6 +30,33 @@
 			integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
 			crossorigin="anonymous"
 		></script>
+
+		<!-- Navbar -->
+
+		<nav class="navbar navbar-expand-lg navbar-light bg-light fw-bold" style="background-color: #f5f5f5">
+			<div class="container" style="font-family: 'Manrope', sans-serif">
+				<ul class="navbar-nav">
+					<li class="nav-item dropdown">
+						<a
+							class="nav-link dropdown-toggle"
+							href="#"
+							id="navbarDarkDropdownMenuLink"
+							role="button"
+							data-bs-toggle="dropdown"
+							aria-expanded="false"
+						>
+							Menu
+						</a>
+						<ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+							<li><a class="dropdown-item" href="login.html">Dashboard</a></li>
+						</ul>
+					</li>
+				</ul>
+
+				<span class="navbar-text"> Survey Vaksinasi</span>
+			</div>
+		</nav>
+
 		<div class="container-fluid" style="background-color: #f5f5f5">
 			<br /><br /><br />
 			<div class="container" style="font-family: 'Manrope', sans-serif">
@@ -38,79 +65,80 @@
 						SURVEY PASIEN VAKSINASI COVID-19
 					</div>
 					<div class="card-body fs-7 text">
-						<div class="mb-3 row">
-							<label for="nama" class="col-sm-5 col-form-label">Nama</label>
-							<div class="col-sm-7">
-								<input type="text" class="form-control" id="nama" />
+						<form action="" method="post">
+							<div class="mb-3 row">
+								<label for="nama" class="col-sm-5 col-form-label">Nama</label>
+								<div class="col-sm-7">
+									<input type="text" class="form-control" id="nama" />
+								</div>
+								<div id="nama" class="form-text col-sm-7 ms-auto">*Masukkan Nama Lengkap</div>
 							</div>
-							<div id="nama" class="form-text col-sm-7 ms-auto">*Masukkan Nama Lengkap</div>
-						</div>
-						<div class="mb-3 row">
-							<label for="usia" class="col-sm-5 col-form-label">Usia</label>
-							<div class="col-sm-7">
-								<input type="number" class="form-control" id="usia" min="15" max="22" />
+							<div class="mb-3 row">
+								<label for="usia" class="col-sm-5 col-form-label">Usia</label>
+								<div class="col-sm-7">
+									<input type="number" class="form-control" id="usia" min="15" max="22" />
+								</div>
+								<div id="usia" class="form-text col-sm-7 ms-auto">*Masukkan Dalam Bentuk Angka</div>
 							</div>
-							<div id="usia" class="form-text col-sm-7 ms-auto">*Masukkan Dalam Bentuk Angka</div>
-						</div>
-						<div class="mb-3 row">
-							<label for="tempattinggal" class="col-sm-5 col-form-label">Tempat Tinggal</label>
-							<div class="col-sm-7">
-								<input type="text" class="form-control" id="tempattinggal" />
+							<div class="mb-3 row">
+								<label for="tempattinggal" class="col-sm-5 col-form-label">Tempat Tinggal</label>
+								<div class="col-sm-7">
+									<input type="text" class="form-control" id="tempattinggal" />
+								</div>
+								<div id="tempattinggal" class="form-text col-sm-7 ms-auto">*Masukkan Asal Kota Anda</div>
 							</div>
-							<div id="tempattinggal" class="form-text col-sm-7 ms-auto">*Masukkan Asal Kota Anda</div>
-						</div>
-						<div class="mb-3 row">
-							<label for="Tempat Tinggal" class="col-sm-5 col-form-label">Status Vaksin</label>
-							<div class="col-sm-7">
-								<select class="form-select" aria-label="Default select example" placeholder="">
-									<option selected>Pilih Status</option>
-									<option value="sudah">Sudah</option>
-									<option value="belum">Belum</option>
-								</select>
+							<div class="mb-3 row">
+								<label for="Tempat Tinggal" class="col-sm-5 col-form-label">Status Vaksin</label>
+								<div class="col-sm-7">
+									<select class="form-select" aria-label="Default select example" placeholder="">
+										<option selected>Pilih Status</option>
+										<option value="sudah">Sudah</option>
+										<option value="belum">Belum</option>
+									</select>
+								</div>
 							</div>
-						</div>
-						<div class="mb-3">
-							<label for="alasan" class="form-label">Alasan Sudah / Belum Vaksin</label>
-							<textarea class="form-control" id="alasan" rows="3"></textarea>
-						</div>
-						<div class="mb-3 row">
-							<label for="jenisvaksin" class="col-sm-5 col-form-label">Jenis Vaksin</label>
-							<div class="col-sm-7">
-								<select class="form-select" aria-label="Default select example" placeholder="">
-									<option selected>Pilih Jenis Vaksin</option>
-									<option value="sinovac">Sinovac</option>
-									<option value="astrazeneca">AstraZeneca</option>
-									<option value="moderna">Moderna</option>
-									<option value="pfizer">Pfizer</option>
-									<option value="sinopharm">Sinopharm</option>
-								</select>
+							<div class="mb-3">
+								<label for="alasan" class="form-label">Alasan Sudah / Belum Vaksin</label>
+								<textarea class="form-control" id="alasan" rows="3"></textarea>
 							</div>
-						</div>
-						<div class="mb-3 row">
-							<label for="jumlahorangrumah" class="col-sm-5 col-form-label">Jumlah Orang di Rumah</label>
-							<div class="col-sm-7">
-								<input type="number" class="form-control" id="jumlahorangrumah" min="0" />
+							<div class="mb-3 row">
+								<label for="jenisvaksin" class="col-sm-5 col-form-label">Jenis Vaksin</label>
+								<div class="col-sm-7">
+									<select class="form-select" aria-label="Default select example" placeholder="">
+										<option selected>Pilih Jenis Vaksin</option>
+										<option value="sinovac">Sinovac</option>
+										<option value="astrazeneca">AstraZeneca</option>
+										<option value="moderna">Moderna</option>
+										<option value="pfizer">Pfizer</option>
+										<option value="sinopharm">Sinopharm</option>
+									</select>
+								</div>
 							</div>
-						</div>
-						<div class="mb-3 row">
-							<label for="jumlahtervaksin" class="col-sm-5 col-form-label">Jumlah Orang Tervaksinasi di Rumah</label>
-							<div class="col-sm-7">
-								<input type="number" class="form-control" id="jumlahtervaksina" min="0" />
+							<div class="mb-3 row">
+								<label for="jumlahorangrumah" class="col-sm-5 col-form-label">Jumlah Orang di Rumah</label>
+								<div class="col-sm-7">
+									<input type="number" class="form-control" id="jumlahorangrumah" min="0" />
+								</div>
 							</div>
-						</div>
-						<div class="mb-3 row">
-							<label for="ratarata" class="col-sm-5 col-form-label">Rata-rata Kontak dengan Orang Lain</label>
-							<div class="col-sm-7">
-								<input type="number" class="form-control" id="ratarata" min="0" />
+							<div class="mb-3 row">
+								<label for="jumlahtervaksin" class="col-sm-5 col-form-label">Jumlah Orang Tervaksinasi di Rumah</label>
+								<div class="col-sm-7">
+									<input type="number" class="form-control" id="jumlahtervaksina" min="0" />
+								</div>
 							</div>
-							<div id="usia" class="form-text col-sm-7 ms-auto">
-								*Hitung rata-rata kontak dengan orang lain dalam sehari
+							<div class="mb-3 row">
+								<label for="ratarata" class="col-sm-5 col-form-label">Rata-rata Kontak dengan Orang Lain</label>
+								<div class="col-sm-7">
+									<input type="number" class="form-control" id="ratarata" min="0" />
+								</div>
+								<div id="usia" class="form-text col-sm-7 ms-auto">
+									*Hitung rata-rata kontak dengan orang lain dalam sehari
+								</div>
 							</div>
-						</div>
-						<div class="col-5">
-							<a href="completed.html"><button type="submit" class="btn btn-primary fs-5 text">Submit</button></a>
-							<a href="login.html"><button type="submit" class="btn btn-primary fs-5 text" style="float: right;">Result</button></a>
-						</div>
+							<div class="col-5">
+								<a href="completed.html"><button type="submit" class="btn btn-primary fs-5 text">Submit</button></a>
+							</div>
+						</form>
 					</div>
 				</div>
 			</div>
