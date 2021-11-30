@@ -36,7 +36,7 @@
                         Menu
                     </a>
                     <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                        <li><a class="dropdown-item" href="login.html">Dashboard</a></li>
+                        <li><a class="dropdown-item" href="result.php">Dashboard</a></li>
                     </ul>
                 </li>
             </ul>

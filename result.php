@@ -2,7 +2,7 @@
 
 require_once 'functions.php';
 
-$dataVaksinasi = query("SELECT * FROM data_reseller");
+$dataVaksinasi = query("SELECT * FROM data_vaksinasi");
 
 ?>
 
@@ -44,23 +44,17 @@ $dataVaksinasi = query("SELECT * FROM data_reseller");
 
                         <?php foreach ($dataVaksinasi as $data): ?>
                         <tr>
-                            <td>John <?= $data['nama']; ?></td>
+                            <td><?= $data['nama']; ?></td>
                             <td><?= $data['usia']; ?></td>
                             <td><?= $data['statusVax']; ?></td>
-                            <td><a href="showresult.html"><button type="submit" class="btn btn-primary fs-5 text">Show
+                            <td><a href="showResult.php?id=<?= $data['id']; ?>"><button type="submit"
+                                        class="btn btn-primary btn-sm fs-7 text">Show
                                         Result</button></a></td>
                         </tr>
                         <?php endforeach; ?>
-                        <tr>
-                            <td>Muhammad</td>
-                            <td>19</td>
-                            <td>Belum</td>
-                            <td><a href="showresult.html"><button type="submit" class="btn btn-primary fs-5 text">Show
-                                        Result</button></a></td>
-                        </tr>
                     </table>
                 </div>
-                <center><a href="index.html"><button type="button" class="btn btn-secondary">Kembali Ke
+                <center><a href="form.php"><button type="button" class="btn btn-secondary">Kembali Ke
                             Form</button></a></center>
             </div>
         </div>

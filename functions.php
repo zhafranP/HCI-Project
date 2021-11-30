@@ -7,7 +7,15 @@ $database = 'epiz_30479689_survey_vaksinasi';
 
 $connections = mysqli_connect($host, $username, $password, $database);
 
-
+function query($query){
+    global $connections;
+    $result = mysqli_query($connections, $query);
+    $rows = [];
+    while($row = mysqli_fetch_assoc($result)){
+        $rows[] = $row;
+    }
+    return $rows;
+}
 
 function tambah($data){
     global $connections;
