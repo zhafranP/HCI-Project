@@ -1,9 +1,9 @@
 <?php  
 
-$host = 'localhost';
-$username = 'root';
-$password = '';
-$database = 'survey-vaksin';
+$host = 'sql312.epizy.com';
+$username = 'epiz_30479689';
+$password = '79v6g4XIdSSz';
+$database = 'epiz_30479689_survey_vaksinasi';
 
 $connections = mysqli_connect($host, $username, $password, $database);
 
