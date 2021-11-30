@@ -1,7 +1,6 @@
 # HCI-Project
 
-#### Live Hosting URL Link
-https://zhafranp.github.io/HCI-Project/
+
 <br>
 ### Site Description
 Website ini dibuat sebagai tempat untuk mendata pasien vaksinasi covid-19. Content utama dari website ini berbentuk form yang berisi beberapa pertanyaan. Dalam form website ini berisi sebelas pertanyaan yang akan ditujukan kepada responden. sebelas pertanyaan tersebut berupa:
