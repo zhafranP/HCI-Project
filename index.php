@@ -27,7 +27,13 @@
 
                     <?php
                             if (isset($_SESSION['useruid'])) {
-                                echo "<center><a href=\"result.php\"><button type=\"submit\" class=\"btn btn-warning fs-5 text\">Dashboard</button></a></center>";
+                                if ($_SESSION['useruid'] == "admin") {
+                                    echo "<center><a href=\"result.php\"><button type=\"submit\" class=\"btn btn-warning fs-5 text\">Dashboard</button></a></center>";
+                                }
+                                else {
+                                    echo "<center><a href=\"form.php\"><button type=\"submit\" class=\"btn btn-primary fs-5 text\">Isi
+                                    Survey</button></a></center>";
+                                }
                             }
                             else {
                                 $useruid = $_SESSION['useruid'];
