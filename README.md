@@ -10,7 +10,7 @@ Website ini dibuat sebagai tempat untuk mendata pasien vaksinasi covid-19. Conte
   * Usia 
   * Tempat tinggal
   * Apakah sudah divaksin atau belum
-  * Alasan mengapa sudah atau beloum divaksin
+  * Alasan mengapa sudah atau belum divaksin
   * Jenis vaksin
   * Jumlah orang di rumah 
   * Jumlah orang yang sudah tervaksinasi di rumah pasien
