@@ -11,7 +11,6 @@
 
 ?>
 
-
 <div class="container p-5">
     <div class="text-center">
         <img src="https://www.millergroup.ca/wp-content/uploads/2017/05/Checkmark.png" class="rounded" alt="Completed"
@@ -20,12 +19,10 @@
             <h2>Terima Kasih Telah Mengisi</h2>
             <h2><span class="text-success">Form Survey Vaksinasi</span> Kami.</h2>
             <br>
-            <a href="index.php"><button type="button" class="btn btn-secondary">Isi Form Lagi</button></a>
+            <a href="index.php"><button type="button" class="btn btn-secondary">Home</button></a>
         </div>
     </div>
 </div>
-
-
 
 <?php
 
