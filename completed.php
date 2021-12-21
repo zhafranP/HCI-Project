@@ -4,6 +4,9 @@
     require_once 'functions.php';
     if(isset($_POST['submit'])){
         tambah($_POST);
+        
+        $useruid = $_SESSION['useruid'];
+        mysqli_query($connections, "UPDATE users SET jumlahIsi = '1' WHERE usersUid = '$useruid';");
     }
     else{
         header("Location: index.php");
