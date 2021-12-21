@@ -1,4 +1,5 @@
 <?php
+  $title = 'Login';
   include_once 'header.php';
 ?>
 
@@ -6,9 +7,9 @@
 
 <body class="bg-light">
 
-<!-- Login Form -->
+    <!-- Login Form -->
 
-  <div class="container-fluid" style="background-color: #f5f5f5">
+    <div class="container-fluid" style="background-color: #f5f5f5">
         <br /><br /><br />
         <div class="container" style="font-family: 'Manrope', sans-serif">
             <div class="card mx-auto shadow-lg p-3 mb-5 bg-body rounded" style="max-width: 800px">
@@ -32,7 +33,7 @@
                             </div>
                             <div id="usia" class="form-text col-sm-7 ms-auto">*Masukkan Password Anda</div>
                         </div>
-                        
+
                         <div class="col-5">
                             <button type="submit" name="login" class="btn btn-primary">Login</button>
                         </div>
@@ -53,7 +54,7 @@
     </div>
 
     <!-- Akhir Login Form -->
-    
+
 </body>
 
 
