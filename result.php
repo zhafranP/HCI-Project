@@ -4,7 +4,12 @@ $dataVaksinasi = query("SELECT * FROM data_vaksinasi");
 $title = 'Result';
 ?>
 
-<?php require_once 'header.php'; ?>
+<?php require_once 'header.php'; 
+
+?>
+
+
+
 
 <div class="container-fluid" style="background-color: #f5f5f5">
     <br /><br /><br />
@@ -33,12 +38,23 @@ $title = 'Result';
                                     Result</button></a></td>
                     </tr>
                     <?php endforeach; ?>
+
+
                 </table>
             </div>
-            <center><a href="index.php"><button type="button" class="btn btn-secondary">Kembali Ke
-                        Menu</button></a></center>
+            <div class='row'>
+                <div class='col-lg-6'>
+                    <center><a href="index.php"><button type="button" class="btn btn-secondary">Kembali Ke
+                            Menu</button></a></center>
+                </div>
+                <div class='col-lg-6'>
+                    <form action="makepdf.php" method="post">
+                    <center><button type="submit" class="btn btn-secondary">Download PDF</button></center>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 </div>
-
 <?php require_once 'footer.php'; ?>
+</html>
