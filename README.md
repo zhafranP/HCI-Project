@@ -22,7 +22,7 @@ Untuk user hanya bisa mengisi form sekali untuk setiap akun.
 <hr>
 
 ### Features Update
-Admin login untuk mengakses Dashboard
+Admin login untuk mengakses Dashboard dan Download Data Vaksinasi User Melalui PDF
 <hr>
 
 ### User Manual
