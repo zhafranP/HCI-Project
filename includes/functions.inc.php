@@ -83,7 +83,13 @@ function loginUser($conn, $username, $pwd) {
         $_SESSION["userid"] = $uidExists["usersId"];
         $_SESSION["useruid"] = $uidExists["usersUid"];
         $_SESSION["username"] = $uidExists["usersName"];
-        header("location: ../index.php");
+        
+        if ($_SESSION['useruid'] == "admin") {
+            header("location: ../result.php");
+        }
+        else {
+            header("location: ../index.php");
+        }
         exit();
     }
 }
