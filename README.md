@@ -17,6 +17,8 @@ Website ini dibuat sebagai tempat untuk mendata pasien vaksinasi covid-19. Conte
   * Rata-rata kontak dengan orang lain dalam sehari
 
 Khusus Untuk Admin, dapat melihat semua data vaksinasi yang sudah diisi oleh user dan dapat melakukan export data dalam bentuk PDF.
+
+Untuk user hanya bisa mengisi form sekali untuk setiap akun.
 <hr>
 
 ### Features Update
