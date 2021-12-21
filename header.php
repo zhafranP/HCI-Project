@@ -23,7 +23,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-opacity-75 fw-bold">
         <div class="container " style="font-family: 'Manrope', sans-serif">
-            <a class="navbar-brand" href="#">Survey Vaksinasi</a>
+            <a class="navbar-brand" href="index.php">Survey Vaksinasi</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNavDarkDropdown" aria-controls="navbarNavDarkDropdown" aria-expanded="false"
                 aria-label="Toggle navigation">
