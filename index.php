@@ -27,12 +27,23 @@
 
                     <?php
                             if (isset($_SESSION['useruid'])) {
-                                echo "<center><a href=\"form.php\"><button type=\"submit\" class=\"btn btn-primary fs-5 text\">Isi
-                                Survey</button></a></center>";
+                                echo "<center><a href=\"result.php\"><button type=\"submit\" class=\"btn btn-warning fs-5 text\">Dashboard</button></a></center>";
                             }
                             else {
-                                echo "<p class=\"text-center\">Anda belum login, silahkan <span><a href=\"login.php\" class=\"link-success\">Login</a></span> untuk mengisi form survey.</p>
-                                <p class=\"text-center\">Anda belum punya akun? Ayo <span><a href=\"signup.php\" class=\"link-warning\">Buat Akun</a></span> sekarang!</p>";
+                                $useruid = $_SESSION['useruid'];
+                                $tampil = mysqli_query($connections, "SELECT jumlahIsi FROM users WHERE usersUid = '$useruid';");
+
+                                while ($data = mysqli_fetch_array($tampil)) {
+                                    $check = $data['jumlahIsi'];
+                                }
+
+                                if ($check == "1") {
+                                    echo "<p class='text-center fw-bold'>Anda sudah mengisi form, <span class='text-success'>Terima Kasih</span> atas partisipasinya.</p>";
+                                }
+                                else {
+                                    echo "<center><a href=\"form.php\"><button type=\"submit\" class=\"btn btn-primary fs-5 text\">Isi
+                                    Survey</button></a></center>";
+                                }
                             }
                         ?>
 
