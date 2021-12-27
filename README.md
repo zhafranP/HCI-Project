@@ -26,7 +26,7 @@ Website ini dibuat sebagai tempat untuk mendata pasien vaksinasi covid-19. Conte
   * Jumlah orang yang sudah tervaksinasi di rumah pasien
   * Rata-rata kontak dengan orang lain dalam sehari
 
- ### All Features :
+ #### All Features :
  * Sign Up Akun
  * Login Akun dan Login Admin (Dalam website page yang sama)
  * Homepage
