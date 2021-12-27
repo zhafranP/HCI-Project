@@ -1,0 +1,146 @@
+Subtitle Video User Testing
+
+Client : Brilian Fifarsyah
+
+Anggota : Fozan Bebe Moreno
+	  Saire Fernando
+	  Zhafran Panggomgomi
+
+Narasi :
+
+F : Baik, assalamualaikum warahmatullahi wabarakatuh,eh terima kasih pada teman-teman dan bang bril pada sore ini untuk membahas pertemuan 
+terakhir kami ya, yang akan ditujukan untuk user testing websitenya. disini nanti bang bril akan kita kasih sharescreen, sharescreen dari zhafran ya,
+zhafran mau share screen ?
+Z : Iya.
+F : Iya, nanti kita paparkan dan kasih feedback aja ke kita, kalau ada yang jelek, kasih tau aja, baik langsung aja ada zhafran.
+Z : Oke terima kasih fozan,.. apakah sudah terlihat ?
+F : Belum.
+Z : Kalau udah keliatan bilang ya
+F : Udah
+Z : Oke, jadi disini saya jelaskan fitur-fitur yang telah kami buat dan telah kami bertiga buat, jadi disini adalah bagian homepage
+atau bagian page utamanya, itu kalo ada user mau mengakses website kami, maka yang pertama kali diarahkan adalah ke sini, jadi disini
+telah tertulis kata pengantar dan dibawahnya ini ada instruksi, jadi instruksi ini untuk melakukan launching bagi user yang belum login
+dan membuat akun atau singup bagi user yang belum melakukan sign up. jadi karena kita posisinya disini belum melakukan sign up atau membuat
+akun jadi kita buat akun terlebih dahulu, jadi disini kita bisa membuat akun langsung klik disini atau diatas, sama aja nanti akan diarahkan
+kepage yang sama. nah dalam mebuat akun ini kita ada enam kolom, ada 5 kolom maaf, jadi ada nama , email, username, password, dan verifikasi
+password jadi misal kita nama masukin dlu, misal kita masukin andri, andriawan, terus kita masukin emailnya. jadi perlu diingat untuk masukin
+email ini kita perlu ada @gmailnya, jadi kalau engga ada @gmailnya engga akan bisa diakses, engga bisa di signup maksud saya. sama username.
+nah yang perlu diingat juga nih kalo untuk melakukan login lagi ktia bisa memakai gmail atau username, jadi user harus mengingat diantara dua ini.
+itu email atau usernamenya, terus kita masukin pasword dan verifikasi password. jadi password yang di kedua kolom ini harus sama di kedua-duanya.
+dan berhasil. nah ini kita melakukan sign up. nah kalo udah muncul notifikasi kayak gini, kita nih berarti udah pasti ini, kalo kita, akun
+kita ini udah berhasil dibuat. jadi kalo akunnya sudah berhasil dibuat kita tinggal lanjutin login aja. kita bisa ke login disini, ini dibagian atas.
+nah kita bisa menggunakan username atau email ya. jadi karena username kita andri, kita tinggal masukin passwordnya. nah kalo berhasil nih, kalo berhasil
+automatis websitenya akan mengarahkan kita ke homepage yang pertama tadi, tapi bedanya ya, nih, kalo yang tadi kan, instruksi ya, nah kalo sekarang
+ini muncul tombol isi survey. Oke, jadi kalo misal user mau melakukan logut, tinggal pencet disini aja nih, dibagian atas ada tulisan logout,
+tar kita pencet aja logout gitu. secara automatis akan kembali lagi, tombolnya ilang dan muncul instruksi lagi, jadi kita harus melakukan itu lagi.
+nah, saya juga ingin menjukkin beberapa fitur ya, terutama jadi misal tadi kita sudah masukin andriawan, kita masukin lagi email nya, berhasil
+dibuat juga ya, nah coba kita masukin menggunakan username yang sama kyk tadi, jadi misal kita buat...nah kita masukin usernya,
+ tadi user yang kita amsukin andri ya, ya kalo tidak salah andri ya tadi, kita masukin..nah kalo kita click signup, maaf tadi passwordnya tidak cocok
+jadi kita buat ulang dlu... tadi kan usernamenya yang kita buat andri ya, jadi kita masukin dlu, masuk, nah karena tadi username sebelumnya
+ sudah digunakan maka website ini akan lock accessnya, karena username sudah digunakan, dan usernamenya yang tadi juga kan sudah dimasukin
+ke database kan, jadi websitenya akan mengecek ke database apakah usernamenya sudah digunakan atau belum, kalo sudah maka websitenya akan
+mengelock accessnya, tadi juga bisa kita liat kan, ada password tidak cocok, jadi kalau kedua passwordnya ini yang dimasukkan tidak sama
+maka website ini juga akan mengelock access untuk membuat akunnya, jadi ada beberapa fitur si yang kita gunakan untuk mengecek apakah username
+sudah digunakan, atau email sudah digunakan, atau nama sudah digunakan, sama passwordnya sama atau tidak, sehingga websitenya kita itu lebih
+,lebih bagus aja gitu keliatannya sama akun-akunnya lebih mudah dimanage ama kita, disini saya mau jelasin juga tentang login admin, sebenarnya
+login admin ini tempat loginnya sama aja sih sama username biasa, tapi kita sudah nyediain yang namanya itu username ama password yang khusus untuk admin
+jadi tuh admin ini atau saudara billy bisa mengakses dan melihat data-data apa aja yang sudah dimasukin ama user ke website ini, jadi entar lebih mudah
+saudara billy untuk mengecek atau mengambil data, entar juga akan dijelasin ama Saire tentang beberapa fitur yang ada di dashboard ini nanti, jadi
+saya akan jelasin doang gimana si kita untuk login admin, dah gitu aja ya, tar saya.. jadi untuk username itu, usernamenya admin dan passwordnya
+itu admin123. nah jadi yang perlu diperhatiin lagi tuh, kalo l\kita login sebagai admin ini bakal diarahinnya itu ke page yang berbeda, kan untuk
+page sebelumnya kalo kita login sebagai user biasa, bakal ke homepage yang tadi kan, yang ada tombol isi survey tadi, nah kalo kita login sebagai
+admin, muncul disini, kek saya rasa si ini yang saya jelaskan si, fitur-fitur bagia saya, selanjutnya bakal dijelasin sama fozan tentang pengisian
+survey.
+F : Baik, yang saya mau jelaskan, fitur kami itu mengisi form surveynya ya, jadi kalo form survey ini tujuannya diisi sama user doang, user
+yang sudah membuat akun dan dia sudah login gitu, nah admin sendiri itu sebenernya engga bisa ya mengisi formnya, jadi emang form itu dikhusus kan
+buat user aja, dan yang sudah nikin akun dan sudah login, nah sekarang langusng aja coba login, oiya, sekalian aja, ini kan bisa username bisa email
+ya loginnya, coba deh sekalian aja sekalian nunjukkin kalo login apke email juga valid, pake akun yang tadi bisa engga, tes ya kalo make username kita
+coba lagi, kalo pake email pun ebrhasil gitu ya, dan kalo sign up dengan username yang sama juga mungkin bakal ditolak gitu ama websitenya kaerna emang
+didatabase kita udah setting kalo username ama emailnya itu dipake sama lebih dari satu user gitu bisa ditolak.
+Z : Eh, sorry fozan, bisa pake username yang baru engga? masih inget engga username yang udah login ?
+F : Kalo engga bikin baru aja, bikin baru aja.
+Z : Sorry tadi agak sedikit lupa, maaf ya.
+F : Iya engga apa-apa.
+Z : Kita coba masukin pake nama, misal muhammad zena bisa ya, kita pake emailnya....usernamenya.... passwordnya..ya. Nanti kita login zena@gmail.com. Nah
+berhasil juga kan tadi pake ini buat dia, pake email tadi.
+F : Oke iya, berarti sistemnya itu ya, udah ini, udah nerima email dan username ya, baik langsung aja, kalo mau isi form, dengan itu tuh, bisa dengan click
+ tombol isi survey dibawah situ, nah kita bakal langsung di arahkan ke halaman form ini. di form ini juga ada banyak pertanyaan pertanyaan yang harus diisi ama
+usernya ya, ada nama, usia, tempat tinggal, status vaksin, alasan sudah atau belumnya, jenisnya, jumlah orang dirumah, kontak orang dirumah dan satu lagi apa tuh
+coba scroll kebawah, ya rata-rata dan jumlah orang tervaksin dirumah, semua kolomnya tuh , pokoknya semuanya harus diisi ya, karena emang databasenya engga nerima
+data yang kosong, emang kita perlu kan datanya, maka jika di wajibkan isi, sengaja coba isi pake data asal aja gapapa. ya kalo, kalo berhasil, kalo pengisiannya berhasil
+dia bakal langsung diarahkan ke halaman complete ini. disana terimakkasih telah mengisi form survey kami, dan disana ada tombol home, kita click tombol homenya akan
+kembali lagi ke halaman utama coba di click, nah kalo diliat disini ya, tombol di surveynya udah engga ada ya, nah karena emang udah kami, udah kami setting, supaya
+setiap user itu cuma bisa ngisi sekali saja gitu ya, kalo mau ngisi lagi ya bikin akun lagi gitu, jadi setiap user cuma diperbolehkan sekali, makanya dihalaman utamanya,
+tombol isi surveynya kami tarik gitu, dan kita ganti dengan tulisan anda sudah mengisi form , terima kasih sudah berpartisipasi, nah sekarang coba deh mau masuk ke adminnya
+admin, nah kita juga ad yang beda ya di homepagenya ini kalo kita masuk login sebagai admin. ya coba click tombol survey vaksinasi deh, icon survey vaksinasi diatas
+ya, nah disitu kan seharusnya tulisannya tombol isi survey kan ya, tapi kami arahkan ke dashboard, karena emang admin itu engga ngisi formnya gitu, karenakan buat apa
+karena admin itukan yang ngumpulin data dari user itu, makanya kita ganti disini bukan tombol isi survey tapid ashboard, coba di click aja dashboard nya, nanti akan
+diarahkan ke halaman yang tadi ya, yang, ya disini data dari yang sudah diisi user tadi, ya sekrang ehh, saire ya, saire yang akan menjelaskan apa saja fitur-fitur
+dari admin ini ya. silahkan saire.
+S : Jadi kan sekarang, apa fitur dashboard kan ya diadmin ya, jadi dimana admin, coba di login, login admin, ya jadi jika login sebagai admin akan muncul gitu di result
+nya kan, dari orang-orang yang udah test surveynya, ada resultnya itu ada namanya, usia dan status vaksin, terus adalagi info lengkapnya di show result, bisa di pencet ga
+coba yang show result yang saire coba, test, iya, jadi di info lengkapnya itu, di survey kan ada isi ampe tempat tinggal, alasan itu segala, jadi info-infonya bakal tersimpan
+di show result, ada tempat tinggal di tamsur, alasannya sehat, jenis vaksinnya sinovac, jumlah orang dirumah 10, jumlah tervaksin 6, rata-rata 5, itu semua tersimpan
+dishow result, bisa di kembali lagi, ya bisa di apa, kembali ke result, ya, sedangkan kalo bukan di show result, cuma berisi nama, usia dan status vaksin,
+ saire 19 sudah, test 20 sudah , itu untuk data vaksinnya, iya kemudian ada lagi, fitur dashboardnya admin, ada yang namanya download pdf ya, bisa kembali,
+ada fitur lagi namanya download pdf itu, di bawah kanan di bawah show result, jadi kalau sebagai admin ingin melihat datanya di sebuah pdf, bisa dipencet download
+pdfnya, coba di test dlu yang download pdf. Nah maka akan muncul tabel, tabelnya akan berisi semua datanya dari yang semua, semua orang yang mengisi survey, jadi 
+ada kyk 10 orang yang mengisi, tabelnya berisi 10 orang bersama data-datanya, dan nanti bisa langsung didownload sebagai pdf bisa langsung di print kalo misalkan
+mau, semuanya dalam satu tabel pdf. ya sudah, untuk fitur admin dashboardnya ya, itu si, result, show result sama download pdfnya. saya balikin lagi ke fozan.
+F : Baik. boleh deh dari bang brilnya ada feedback apa, bagaimana si website kami tuh, menurut bang bril, apa ada yang kurang gitu, ada yang miss gitu fiturnya,
+apa ada yang kurang sempurna masih perlu sedikit perbaikan-perbaikan gitu.
+B : ya menurut saya sudah bagus si, apalagi ini yang download pdfnya itu, saya engga kepikiran lo ada gituan, itu mempermudah saya juga gitu, bisa download langsung.
+Terus yang, udah bagus si ininya, cuman saya mau nanya dong, yang admin ini bisa diganti engga username passwordnya gitu, buat saya gitu
+F : Bisa si tapi kita harus ke codingannya, kita hard-coded gitu, jadi di databasenya diganti terus di belakangnya juga harus diganti, jadi sudah ketentuan kami kasih
+namanya admin, tapi kalo mau di ganti bisa.
+B : oh gitu ya, gapapa si, nanya aja gitu, terus juga yang abis ngisi surveynya itu ada tanda checklistnya itu, menurut saya fitur mminor, tapi bagus menurut saya itu,
+dah ini banget, jadi kayak orang-orang yang ngisi tuh, wih keren banget gitu, ini menurut saya udah cukup si udah bagus.
+F : Ya kalo bang bril mau langsung nyoba, ya bisa langsung aja ke websitenya itu ya ada diatas survey vaksinasi.rf.gd, disana bisa langsung dicoba dan memang sudah responsive
+juga, dah dibuka di handphone udah engga berantakan, jadi ya bisa langsung di buka, memang sudah kita upload ke hosting.
+Z : Jadi entar untuk brilly saya kasih linknya dlu ya. 
+B : Iya
+Z : nah entar mungkin setelah pemakaian ebberapa ini, bisa dikasih nih, feedbacknya ke kita, kan tadi kan feedback tampilan doang kan, dari ya kita presentasiin, nah setelah
+abis itu, abis nyoba ini, mungkin bisa di kasih nih, tips-tipsnya, kita, apa aja si yang menurut saudara billy bagus gitu. mungkin ada kurangnya juga, bisa share ke kita
+gitu, saya sharing dlu ya linknya...... nih udah saya shae, udah saya ini ya, di chat
+B : saya coba ya.
+F : Iya silahkan
+Z : kalo lama juga engga apa-apa kok, tetep kita tunggu santai
+B : admin admin132 ya, admin 123 ?
+Z : iya, ditempat login biasa
+B : eh ini, bisa direset gitu engga yang sudah diisi
+Z : Eh reset gimana ? maksudnya gimana ?
+B : reset isinya, yang test-test gitu loh
+Z : Oh bisa, ntar kita hapus semua dari database, entar kita kosongin semua baru kita kasih ke sini, saudara billy, sekarang kita masih tahap testing doang kan.
+F : Iya masih user testing, nanti yang akun-akun usernya bakal diapus, kecuali yang admin itu.
+B : ya sudah.
+F : ya gimana, kalo ada yang bingung-bingung si boleh ditanyakan.
+B : udah ini si, lagi nyoba nyoba, udah ini si, udah berjalan bagus si, dah work perfectly juga..... oiya nih, mau ngasih feedback aja nih, maksimal umurnya cuma
+nyampe umur 22, tadi kalo engga salah, soalnya tadi ngisi 30-34 itu enggal bisa, terus pas dipecnet yang tanda upnya gitu, maksnya 22 doang jadinya
+F : Jadi ya, sorry kita memang targetin ke mahasiswa ya, jadi target vaksinya kan itu ya, rujukan untuk anak-anak mdoe ya, jadi kit amendtokin ke 22 gitu, karena
+mahasiswa kira-kira umurnya segitu, tapi kalo mau diubah si masih bisa si tinggal di ubah saya.
+B : buat kebutuhan saya si sampai 35 si sbeenernya, soalnya tuh berkaitan sama penelitian gitu kan, jadi masih umur muda transisi ke tua gitu, jadi buat penelitian
+saya itu butuh sampai 35
+F : Jadi kita ubah ya , nanti kalo sudah selesai, nanti kita kabari lagi.
+B : Ok, itu aja si, udah ini banget, udah bagus, apalagi fitur pdfnya tuh saya suka banget, itu ngebantu banget.
+Z : Ya makasih brilly untuk feedbacknya ya, jadi kyknya mungkin ada yang mau di tambahin lagi tentang website kita.
+B : Engga ada si, sebenernya uda, semua yang saya butuhin udah dibuat ama temen-temen, udah puas si saya engga ada lagi nih, cuman yang fitur usia gitu cuma nyampe 35
+saya lupa ngomong juga.
+Z : ya karena kan mikirnya kan kita targetnya mahasiswa ya, jadi mungkin usia si nyampe usia sampai 20 engga nyampe ke 30, tapi makasih bagnet si untung bang bril
+yang udah mau kasih masukan.
+B : Iya maaf juga lupa ngabarin.
+Z : Sebenernya juga itu cuma tinggal ganti itu, gampang kok, engga susah-susah kodingnya. Tapi mungkin menurut bang bril untuk alasan yang tadi itu kan ada alasan, apa
+ada minimal kata gitu banyaknya seberapa atau di bebasin aja ?
+B : 20 kata aja si gapapa.
+Z : Oke-oke, tar kita update semuanay si, tar ktia kasih eprkembangannya lagi mungkin engga lama si, karena kita cuma ganti beberapa koding di program kita, tar kita
+upload lagi ke hosting. apa sudha cukup ?
+B : Udah, udah, udah bener banget, udah.
+Z : Oke saya kembalikan ke fozan untuk menutup acara kita hari ini, oke silahkan fozan.
+F : Baik, nanti kalo kita sudah selesai ya kita kabarin lagi, kalo udah kita upload ke hosting kita kabarin lagi ke bang brilnya, terima kasih banget nih bang bril
+udah ngebantu kita selama ya satu semester ini ya dalam project mata kuliah HCI kami, itu ngebantu bangey loh ya, karena kita mencari client itu susah kemana-mana ya
+pas kita dapet bang bril wah, udah seneng banget ya, makanya terimakasih banget ya dan udah ngebantu kami gitu ya, ya mungkin ada kesan pesan dari bang bril ya, buat kita
+buat kita-kita.
+B : Ya makasih juga, ini kita kan sama-sama butuh ya jadi simbiosis mutualisme aja, saya juga butuh, temen-temen juga butuh, ajdi ya alhamdullilah, juga dapet temen-temen
+gitu websitenya bagus banget, produknya gitu, semoga terus dapet nilai-nilainya bagus, dan lulus matkul ini gitu.
+F : Oke deh ya, baik mungkin segitu saja ya buat sesi user testing kami. untuk itu kami pamit undur diri, mohon maaf bila ada salah tutur kata atau perilaku, sekian dari kami
+wassalamualaikum warahmatullahi wabarakatuh.
+B : Wa'alaikum salam, makasih banyak ya.
